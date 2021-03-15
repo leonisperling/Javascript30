@@ -52,33 +52,33 @@ body {
     width:50%;
   }
 
-  .hour-hand {
-    border-top-left-radius: 0.5em;
-    border-bottom-left-radius: 0.5em;
-    height: 8px;
-    width: 29%;
-  }
+.hour-hand {
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+  height: 8px;
+  width: 29%;
+}
 
-  .min-hand {
-    width: 45%;
-    border-top-left-radius: 0.5em;
-    border-bottom-left-radius: 0.5em;
-  }
+.min-hand {
+  width: 45%;
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+}
 
-  .second-hand {
-    height: 2px;
-    background-color: #4bffe7;
-    width: 54%;
-  }
+.second-hand {
+  height: 2px;
+  background-color: #4bffe7;
+  width: 54%;
+}
 
-  .second-hand::after {
-    background-color: #4bffe7;
-    border-radius: 50%;
-    content: "";
-    height: 20px;
-    left: 93.5%;
-    position: absolute;
-    top: -10px;
-    width: 20px;
-  }
+.second-hand::after {
+  background-color: #4bffe7;
+  border-radius: 50%;
+  content: "";
+  height: 20px;
+  left: 93.5%;
+  position: absolute;
+  top: -10px;
+  width: 20px;
+}
 
